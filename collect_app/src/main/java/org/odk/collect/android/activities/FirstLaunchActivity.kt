@@ -57,9 +57,9 @@ class FirstLaunchActivity : CollectAbstractActivity() {
             }
 
             appName.text = String.format(
-                "%s %s",
-                getString(R.string.collect_app_name),
-                versionInformation.versionToDisplay
+                "%s",
+                getString(R.string.powered_by),
+                // versionInformation.versionToDisplay
             )
 
             configureLater.addOnClickListener {
